@@ -1,0 +1,38 @@
+body {
+    background-color: #ccc;
+    font-family: Helvetica, sans-serif;
+    color: #222;
+    flex: 0, 0, 50px;
+    padding: 50px;
+}
+img {
+    width: 100%;
+}
+h1 {
+    margin: 15px 0;
+}
+h2 {
+    margin: 10px;
+    font-weight: 100, strong;
+}
+video {
+    width: 700px;
+}
+
+nav {
+    position: fixed; /* fix nav bar to the top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #401610;
+    overflow: hidden;
+    padding: 10px;
+    color: #f3f3f3;
+    font-size: 30px;
+  }
+
+  /* above from link: https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+  nav a:visited {
+      color:#f3f3f3;
+  }
