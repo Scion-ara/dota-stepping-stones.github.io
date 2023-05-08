@@ -43,7 +43,7 @@ video {
   }*/
 
   nav {
-    position: fixed; /* fix nav bar to the top */
+    display: inline;
     left: 0;
     top: 0;
     width: 100%;
