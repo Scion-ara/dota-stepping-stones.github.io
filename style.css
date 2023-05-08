@@ -5,6 +5,7 @@ body {
     flex: 0px, 0px, 50px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 10px;
 }
 img {
     width: 100%;
