@@ -21,8 +21,8 @@ video {
     width: 700px;
 }
 
-nav {
-    position: fixed; /* fix nav bar to the top */
+/* nav {
+    position: fixed; /* fix nav bar to the top 
     display: inline;
     left: 0;
     top: 0;
@@ -32,7 +32,19 @@ nav {
     padding: 10px;
     color: #f3f3f3;
     font-size: 30px;
+  }*/
+
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
+
+  nav a:hover {
+    background-color: #111;
+}
 
   /* above from link: https://www.w3schools.com/howto/howto_js_topnav.asp */
 
