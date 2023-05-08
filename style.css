@@ -19,7 +19,7 @@ h2 {
 }
 
   nav {
-    display: inline;
+    display: inline-block;
     left: 0;
     top: 0;
     width: 100%;
