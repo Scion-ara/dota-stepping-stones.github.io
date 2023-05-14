@@ -2,8 +2,10 @@ body {
     background-color: #ccc;
     font-family: Helvetica, sans-serif;
     color: #222;
-    flex: 0, 0, 50px;
-    padding: 50px;
+    flex: 0px, 0px, 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
 }
 img {
     width: 100%;
@@ -15,24 +17,32 @@ h2 {
     margin: 10px;
     font-weight: 100, strong;
 }
-video {
-    width: 700px;
-}
 
-nav {
-    position: fixed; /* fix nav bar to the top */
+  nav {
+    display: inline-block;
     left: 0;
     top: 0;
     width: 100%;
     background-color: #401610;
     overflow: hidden;
-    padding: 10px;
+    padding: 14px 16px;
     color: #f3f3f3;
-    font-size: 30px;
+    font-size: 20px;
   }
 
-  /* above from link: https://www.w3schools.com/howto/howto_js_topnav.asp */
+  nav a:hover {
+    background-color: #111;
+}
 
   nav a:visited {
       color:#f3f3f3;
+  }
+
+  .active {
+    background-color: green;
+  }
+
+  iframe {
+    width: 600px;
+    height: 300px;
   }
